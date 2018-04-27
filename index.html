@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  <title></title>
+</head>
+
+<body>
+  <div class="columns">
+  <div class="column">
+  <h1>Chat</h1>Gun JS Chat  
+  <ul></ul>
+    </div>
+</div>
+  <form class="columns">
+    <input class="who column is-2" placeholder="Name">
+    <input class="what column" placeholder="Message">
+    <button class="column is-2">Send</button>
+  </form>
+
+  <div class="model" style="display: none;">
+    <li class="message">
+      <code class="when">0</code>
+      <b class="who"></b>:
+      <span class="what"></span>
+    </li>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/gun/gun.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.js">
+  </script>
+</body>
+
+</html>
