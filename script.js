@@ -1,8 +1,7 @@
 //var gun = Gun().get('thoughts');
 var gun = 
 Gun('https://gunjs.herokuapp.com/gun').get('tutorial/chat/app');
-//var gun = 
-//Gun('http://oyo.openco.ca:8080/gun').get('tutorial/chat/app');
+
 
        $('form').on('submit', function(event) {
             event.preventDefault();
